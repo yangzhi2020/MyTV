@@ -1,0 +1,6 @@
+#EXTM3U
+
+#EXTINF:-1, 香港无线新闻台 tvh ffmpeg 
+pipe:///ffmpeg -re -i http://192.168.20.230:8008/now_tv_332 -vcodec copy -acodec copy -f mpegts pipe:1
+
+
